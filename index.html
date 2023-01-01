@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/ccd3ee6b59.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+
+<body class="flex justify-center relative">
+
+  <header class="absolute top-4 flex justify-between items-center  py-4 xl:px-8 px-6 shadow-xl w-[80%] bg-zinc-900">
+    <div class="logo text-2xl font-bold text-white uppercase tracking-widest">Surf</div>
+    <nav class=" justify-center items-center md:flex hidden lg:gap-4 gap-3">
+      <a href="#" class="text-gray-300">Home</a>
+      <a href="#" class="text-gray-300">Services</a>
+      <a href="#" class="text-gray-300">Project</a>
+      <a href="#" class="text-gray-300">About Us</a>
+      <a href="#" class="text-gray-300">Blog</a>
+      <a href="#" class="text-gray-300">Contact Us</a>
+    </nav>
+
+    <div class="flex justify-start items-center text-white font-bold gap-4">
+      <i class="fa fa-duotone fa-bars md:hidden"></i>
+      <i class="fa fa-solid fa-magnifying-glass"></i>
+      <i class="fa fa-solid fa-cart-shopping"></i>
+      <i class="fa fa-solid fa-right-to-bracket"></i>
+    </div>
+  </header>
+
+
+  <section class="flex justify-end flex-col sm:w-[60%] w-full bg-zinc-800 pt-32 pb-10  xl:px-40 lg:px-28 sm:px-20 px-8">
+    <div class="">
+      <h3 class="text-white font-primary font-bold text-6xl uppercase">Surf</h3>
+      <p class="text-base text-gray-400 mt-2">Lecreame Couche</p>
+      <p class="text-gray-300 text-base font-normal py-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+        praesentium, amet distinctio doloribus labore, impedit maiores officia eveniet obcaecati veniam repellendus.
+        Temporibus, nobis fugit rerum hic placeat quisquam labore id.</p>
+
+      <h4 class="text-gray-300 text-base font-medium" for="">Colors</h4>
+      <div class="flex justify-start items-start gap-3 mt-3">
+        <div class="">
+          <input type="radio" id="black" name="color" value="Black">
+          <label class="text-gray-300 font-normal text-base" for="black">Black</label>
+        </div>
+
+        <div class="">
+          <input type="radio" id="yellow" name="color" value="yellow">
+          <label class="text-gray-300 font-normal text-base" for="yellow">yellow</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="w-2/3 h-[0.3rem] bg-zinc-700 rounded-full my-6">
+      <div class="w-1/2 h-[100%] bg-zinc-900 rounded-full"></div>
+    </div>
+
+    <button class="bg-amber-400 text-gray-800 py-3 px-2 rounded font-bold sm:w-full w-2/3">Add to cart $80</button>
+
+    <div class="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 mt-12 mb-4">
+      <div class="">
+        <h4 class="text-sm text-gray-300 font-medium">Lorem</h4>
+        <p class="text-sm text-gray-400 mt-3 font-lighter">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Hic
+          quaerat eligendi
+          cumque. Molestias adipisci eaque reiciendis dolorem.</p>
+      </div>
+
+      <div class="">
+        <h4 class="text-sm text-gray-300 font-medium">Lorem</h4>
+        <p class="text-sm text-gray-400 mt-3 font-lighter">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Hic
+          quaerat eligendi
+          cumque. Molestias adipisci eaque reiciendis dolorem.</p>
+      </div>
+
+      <div class="">
+        <h4 class="text-sm text-gray-300 font-medium">Lorem</h4>
+        <p class="text-sm text-gray-400 mt-3 font-lighter">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Hic
+          quaerat eligendi
+          cumque. Molestias adipisci eaque reiciendis dolorem.</p>
+      </div>
+    </div>
+  </section>
+
+  <section style="background-image: url('./images/furniture-bg.jpg');"
+    class="lg:bg-right bg-center bg-cover bg-no-repeat w-[40%] sm:block hidden">
+  </section>
+
+  <div
+    class="social text-gray-800 text-lg fixed sm:left-0 right-0 bottom-0 h-[10rem] max-w-max flex justify-start gap-4 p-4 flex-col bg-amber-400">
+    <i class="fa fa fa-brands fa-twitter"></i>
+    <i class="fa fa-brands fa-linkedin"></i>
+    <i class="fa fa-brands fa-square-instagram"></i>
+  </div>
+
+  <div
+    class="flex justify-center items-center gap-4 absolute rotate-90 sm:text-base text-sm sm:-left-28 -left-32 sm:top-64 top-72">
+    <p class="text-base text-gray-400 font-normal">Material Design</p>
+    <p class="text-base text-gray-400 font-normal">Our Process</p>
+    <p class="text-base text-gray-400 font-normal">Our Story</p>
+  </div>
+
+</body>
+
+</html>
